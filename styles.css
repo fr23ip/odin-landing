@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #1F2937;
+    background-color: #4698d5;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ ul a {
 }
 
 .one {
-    background-color: #1F2937;
+    background-color: #021742;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -70,7 +70,7 @@ ul a {
     color: #E5E7EB;
 }
 
-#greenpic {
+#bluepic {
     width: 550px;
     height: auto;
     margin: 30px;
@@ -82,7 +82,7 @@ button {
 }
 
 .butuno {
-    background-color:#3882F6;
+    background-color:#4698d5;
     color: white;
     border: none;
     border-radius: 8px;
@@ -94,7 +94,7 @@ button {
 }
 
 .three {
-    background-color: #1F2937;
+    background-color: #021740;
     display: flex;
 }
 
@@ -125,7 +125,7 @@ button {
     width: 170px;
     height: 170px;
     background-color: white;
-    border: solid 4px #3882F6;
+    border: solid 4px #4698d5;
     border-radius: 20px;
 }
 
@@ -165,7 +165,7 @@ button {
 }
 
 .card {
-    background-color: #3882F6;
+    background-color: #4698d5;
     padding:40px 200px;
     margin: 30px;
     border-radius: 10px;
@@ -183,12 +183,12 @@ button {
 .call {
     border: solid white 2px;
     border-radius: 8px;
-    background-color:#3882F6;
+    background-color:#4698d5;
     color: white;
 }
 
 footer {
-    background-color: #1F2937;;
+    background-color: #021740;;
 }
 
 .copyr {
