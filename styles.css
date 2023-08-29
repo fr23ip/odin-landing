@@ -22,10 +22,10 @@ header {
     font-weight: 700;
 }
 
-.right-links {
+.right-links ul a {
     display: flex;
+    color: #ED1C24;
     font-size: 18px;
-    color: ##ED1C24;
 }
 
 ul {
