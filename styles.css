@@ -4,13 +4,12 @@ body {
     height: 100vh;
     margin: 0;
     display: flex;
+    background-color: #F2F2F2;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background-color: #4698d5;
-    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +17,7 @@ header {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #ED1C24;
     margin: 15px 15px 15px 60px;
     font-weight: 700;
 }
@@ -26,7 +25,7 @@ header {
 .right-links {
     display: flex;
     font-size: 18px;
-    color: #E5E7EB;
+    color: ##ED1C24;
 }
 
 ul {
@@ -41,11 +40,11 @@ ul {
 
 ul a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #F2F2F2;
 }
 
 .one {
-    background-color: #021742;
+    background-color: #0A2C3B;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -55,7 +54,7 @@ ul a {
 .bigtext {
     font-size: 48px;
     font-weight: 900;
-    color:#F9FAF8;
+    color:#F2F2F2;
 }
 
 .awesome {
@@ -67,11 +66,11 @@ ul a {
 
 .textuno {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #f2f2f2d7;
 }
 
-#bluepic {
-    width: 550px;
+#rocket {
+    width: 350px;
     height: auto;
     margin: 30px;
 }
@@ -82,26 +81,23 @@ button {
 }
 
 .butuno {
-    background-color:#4698d5;
-    color: white;
+    background-color:#26AAE1;
+    color: #F2F2F2;
     border: none;
     border-radius: 8px;
     margin-top: 10px;
+    padding: 12px 24px;
+    font-size: 14px;
 }
 
 .dos {
-    background-color: white;
-}
-
-.three {
-    background-color: #021740;
-    display: flex;
+    background-color: #F2F2F2;
 }
 
 .centertext {
     font-weight: 900;
     font-size: 36px;
-    color:#152937;
+    color:#ED1C24;
     text-align: center;
     margin-top: 45px;
 }
@@ -125,34 +121,38 @@ button {
     width: 170px;
     height: 170px;
     background-color: white;
-    border: solid 4px #4698d5;
+    border: solid 4px #26AAE1;
     border-radius: 20px;
 }
 
 .text {
-    color: #9e9e9e;
+    color: #0A2C3B;
     font-size: 18px;
+    font-weight: 500;
     text-align: center;
     margin-top: 15px;
     width: 170px;
 }
 
-.three {
+/* .three {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
-    padding: 80px 200px;
-}
+    background-color: #F25E3D;
+    padding: 40px 140px;
+} */
 
 .quote {
     font-size: 36px;
     font-weight: 100px;
-    color: #1F2937;
+    color: #0A2C3B;
+    text-align: center;
     font-style: italic;
+    padding-top: 20px;
 }
 
 .author {
     font-weight: 700;
+    color: #0A2C3B;
     align-self: flex-end;
     padding-top: 40px;
     padding-right: 30px;
@@ -165,7 +165,7 @@ button {
 }
 
 .card {
-    background-color: #4698d5;
+    background-color: #26AAE1;
     padding:40px 200px;
     margin: 30px;
     border-radius: 10px;
@@ -175,24 +175,24 @@ button {
 }
 
 .action {
-    color: white;
+    color: #F2F2F2;
     font-weight: 700;
     font-size: 20px;
 }
 
 .call {
-    border: solid white 2px;
+    border: solid 2px;
     border-radius: 8px;
-    background-color:#4698d5;
-    color: white;
+    background-color:#0A2C3B;
+    color: #F2F2F2;
 }
 
 footer {
-    background-color: #021740;;
+    background-color: #0A2C3B;;
 }
 
 .copyr {
-    color: white;
+    color: #F2F2F2;
     text-align: center;
     margin: 20px;
 }
