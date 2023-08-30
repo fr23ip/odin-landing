@@ -46,6 +46,7 @@ ul a {
 .one {
     background-color: #0A2C3B;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
@@ -104,7 +105,7 @@ button {
 
 .info {
     display: flex;
-    flex: 1;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
@@ -134,12 +135,6 @@ button {
     width: 170px;
 }
 
-/* .three {
-    display: flex;
-    flex-direction: column;
-    background-color: #F25E3D;
-    padding: 40px 140px;
-} */
 
 .quote {
     font-size: 36px;
@@ -158,20 +153,22 @@ button {
     padding-right: 30px;
 }
 
-.four {
+.three {
     display: flex;
+    flex: auto;
     justify-content: center;
     align-items: center;
 }
 
 .card {
     background-color: #26AAE1;
-    padding:40px 200px;
+    padding: 5% 10%;
     margin: 30px;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
-    gap: 70px;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
 }
 
 .action {
